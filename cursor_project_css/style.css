@@ -157,17 +157,18 @@ div #cta{
     border-radius: 10px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
     margin-top: 100px;
     border-radius: 5px;
     background-color:#121212;
+    
    }
 
 #text-main{
       color: #ffffff;
       font-family:  sans-serif;
       font-style:Regular 370;
-      font-size: 16px;
+      font-size: 20px;
       display: flex;
       flex-direction: column;
 
@@ -182,11 +183,12 @@ div #cta{
 }
 #a-agent li a{
     color: #F54E00;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #agent-right img{
     border-radius: 7px;
+    width: 920px;
 }
 
  
