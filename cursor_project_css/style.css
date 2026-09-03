@@ -299,6 +299,37 @@ terminal-text-left p {
     width: 950px;
     height: 650px;
     border-radius: 7px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+#grid-h{
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
 
+}
+.grid-parent{
+  width: 1320px;
+  margin: 60px auto;
+  height: 460px;
+  display: grid;
+  grid-template-rows: repeat(2,221px);
+  grid-template-columns: repeat(3,434px);
+  gap:8px;
+ 
+  /* border: 2px solid red; */
+}
+.child{
+  /* border: 1px solid fuchsia; */
+  width: 434px;
+  height: 220px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family:sans-serif;
+  background-color: #1b1913;
+  border-radius: 8px;
+  
+}
